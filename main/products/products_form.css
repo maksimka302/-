@@ -1,0 +1,13 @@
+.form-container {
+    display: flex;          /* Вирівнюємо елементи в рядок */
+    flex-direction: column;    
+    gap: 10px;              /* Додаємо проміжок між елементами */
+    align-items: center;    /* Вирівнюємо елементи по вертикалі */
+    justify-content: center; /* Вирівнюємо вміст по центру */
+    position: fixed;
+    left: 50%;             /* Відступ від лівого краю */
+    top: 50%;              /* Відступ від верхнього краю */
+    transform: translate(-50%, -50%);
+}
+
+h1{color: blue};
